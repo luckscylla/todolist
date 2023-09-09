@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %} My Todolist {% endblock %}
+{% block content%}
+{% for item in item_list %}
+<ul>
+    <li>Owner : {{ item.content }}</li>
+    <li>Content : {{ item.done }}</li>
+    <li>Date : {{ item.date }}</li>
+</ul>
+{% endfor %}
+{% endblock %}
