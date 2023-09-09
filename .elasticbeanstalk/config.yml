@@ -3,11 +3,11 @@ branch-defaults:
     environment: null
     group_suffix: null
 global:
-  application_name: django-tutorial
+  application_name: django-todolist
   branch: master
   default_ec2_keyname: aws-eb
   default_platform: Python 3.11 running on 64bit Amazon Linux 2023
-  default_region: ap-northeast-1
+  default_region: us-west-2
   include_git_submodules: true
   instance_profile: null
   platform_name: null
